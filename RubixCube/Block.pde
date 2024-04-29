@@ -1,3 +1,5 @@
+import processing.core.PVector;
+import processing.core.PApplet;
 class Block {
 
   PVector pos;
@@ -33,7 +35,7 @@ class Block {
     }
     switch(axisNo) {
     case 0://x axis
-      //front becomes up
+      //front becomes upa
       //up becomes back
       //back becomes down
       //down becomes font
